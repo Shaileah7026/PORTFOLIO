@@ -245,7 +245,6 @@ main{
   font-weight: bolder;
 }
 .para{
-  width: 80%;
   font-size: var(--font-size-para);
 }
 .project{

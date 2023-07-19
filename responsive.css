@@ -84,16 +84,16 @@
 
   @media screen and (max-width: 767px) {
     :root{
-      --section-padding :10px ; 
+      --section-padding :0px ; 
       --color-blue : #63fed9;
       --color-light-blue : #44af9f37 ;
       --font-para : monospace ;
-      --font-size-para : 1.1rem;
+      --font-size-para : 0.8rem;
       --font-color-white : white ;
-      --heading-font-size:3rem;
-      --number-font-size:1.3rem;
+      --heading-font-size:2.2rem;
+      --number-font-size:1rem;
       --card-font-size:1.2rem;
-      --card-heading-font-size : 1.5rem ;
+      --card-heading-font-size : 1rem ;
     
     }
     .about{
@@ -111,12 +111,16 @@
     menu{
       display: block;
     }
+    .menu-element{
+      font-size: var(--font-para);
+    }
     .navbar {
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 16px 44px;
     }
+    
     .list {
       display: flex;
       transition: all 0.3s ease-in-out;
@@ -135,7 +139,7 @@
     .hero-content {
       top: 500px;
       gap: 40px;
-      width: 57%;
+      width: 80%;
       transition: all 0.3s ease-in-out;
     }
    .right-bar{
