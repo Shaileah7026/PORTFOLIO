@@ -120,6 +120,9 @@
       justify-content: space-between;
       padding: 16px 44px;
     }
+    .project-link{
+      display: none;
+    }
     
     .list {
       display: flex;
