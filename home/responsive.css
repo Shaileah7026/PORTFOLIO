@@ -1,0 +1,161 @@
+
+/* Styles for tablets and larger devices */
+  @media screen and (max-width:1738px) {
+    :root{
+      --section-padding :200px 200px ; 
+      --color-blue : #63fed9;
+      --color-light-blue : #44af9f37 ;
+      --font-para : monospace ;
+      --font-size-para : 1.2rem;
+      --font-color-white : white ;
+      --heading-font-size:4rem;
+      --number-font-size:1.5rem;
+      --card-font-size:1.3rem;
+      --card-heading-font-size : 2.5rem ;
+    
+    }
+    .about{
+      padding: 10%;
+    }
+    .card-area{
+      flex-wrap: wrap; 
+    }
+    .card-left {
+      width: 100%;
+    }
+    .card-right{
+      width: 97%;
+
+    }
+    .card{
+      width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    :root{
+      --section-padding :40px ; 
+      --color-blue : #63fed9;
+      --color-light-blue : #44af9f37 ;
+      --font-para : monospace ;
+      --font-size-para : 1.2rem;
+      --font-color-white : white ;
+      --heading-font-size:3.5rem;
+      --number-font-size:1.5rem;
+      --card-font-size:1.2rem;
+      --card-heading-font-size : 2rem ;
+    
+    }
+  
+    .content{
+      flex-flow: column-reverse;
+    }
+    .info-about{
+      width: 98%;
+    }
+    .myimg {
+      padding: 15%;
+    }
+    .about{
+      padding: 75px 50px;
+      
+    }
+    .menu-elements{
+      display: flex;
+      flex-flow: row;
+    }
+    .card{
+      margin-top: 163px;
+    }
+    .project{
+      padding-top: 1000px;
+    }
+  
+  .right-bar{
+   display: none;
+  }
+  .left-bar{
+   display: none;
+  }
+  .side-border{
+   display: none;
+  }
+  }
+
+  @media screen and (max-width: 767px) {
+    :root{
+      --section-padding :10px ; 
+      --color-blue : #63fed9;
+      --color-light-blue : #44af9f37 ;
+      --font-para : monospace ;
+      --font-size-para : 1.1rem;
+      --font-color-white : white ;
+      --heading-font-size:3rem;
+      --number-font-size:1.3rem;
+      --card-font-size:1.2rem;
+      --card-heading-font-size : 1.5rem ;
+    
+    }
+    .about{
+        padding-left: 2%;
+    }
+    .cover{
+      height: 150vh;
+    }
+    .card{
+      width: 80%;
+    }
+    .navbar-container {
+      background-color: #1d1d1d56;
+    }
+    menu{
+      display: block;
+    }
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 44px;
+    }
+    .list {
+      display: flex;
+      transition: all 0.3s ease-in-out;
+      position: absolute;
+      justify-content: left;
+      top: 5%;
+      left: 37%;
+      gap: 48px;
+      padding: 12px;
+      flex-flow: column;
+    }
+    .list li a {
+      font-size: 20px;
+      text-align: center;
+    }
+    .hero-content {
+      top: 500px;
+      gap: 40px;
+      width: 57%;
+      transition: all 0.3s ease-in-out;
+    }
+   .right-bar{
+    display: none;
+   }
+   .left-bar{
+    display: none;
+   }
+   .menu-icon{
+    display: block;
+   }
+   .side-border{
+    display: none;
+   }
+   .card-left {
+    width: 97%;
+    position: relative;
+    top: -70px;
+  }
+}
+
+
+  
